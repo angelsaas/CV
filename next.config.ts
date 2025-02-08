@@ -1,12 +1,12 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: "export", // Permite exportar la app como un sitio estático
+  output: "export",
   images: {
-    unoptimized: true, // Necesario porque GitHub Pages no soporta la optimización de imágenes de Next.js
+    unoptimized: true,
   },
-  basePath: "/cv_angel", // Ajusta según el nombre de tu repositorio
-  assetPrefix: "/cv_angel/",
+  basePath: "/CV", // Cambia esto al nombre de tu repositorio (en este caso "CV")
+  assetPrefix: "/CV/",
 };
 
 export default nextConfig;
