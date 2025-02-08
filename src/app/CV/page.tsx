@@ -89,7 +89,7 @@ const CV = () => {
         <div>
           <div className="w-32 h-32 mx-auto rounded-full overflow-hidden mb-4">
             <img
-              src="/Angel.jpg"
+              src="/DSCF5357.jpg"
               alt="Ángel Gómez García"
               className="w-full h-full object-cover"
             />
